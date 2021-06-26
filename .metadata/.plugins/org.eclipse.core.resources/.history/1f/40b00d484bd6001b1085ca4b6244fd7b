@@ -1,0 +1,21 @@
+package SistemaBancarioTestes;
+
+public class GerenciadoraContasTests {
+	
+	private gerenciadoraContas gerContas;
+	
+	@Test
+	public void testTransfereValor() {
+		/* ========== Montagem do cenario========== */
+		
+		//criando alguns clientes
+	
+		int idConta01 = 1;
+		int idConta02 = 2;
+		
+	ContaCorrente conta01 = new ContaCorrente(idConta01, 200, true);
+	ContaCorrente conta02 = new ContaCorrente();
+	
+	}
+
+}

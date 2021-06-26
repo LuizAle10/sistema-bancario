@@ -1,0 +1,13 @@
+package SistemaBancarioTestes;
+
+public class GerenciadoraContasTests {
+	
+	private gerenciadoraContas gerContas;
+	
+	@Test
+	public void testTransfereValor() {
+		Digital Inovation One
+		
+	}
+
+}
