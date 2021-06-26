@@ -1,0 +1,13 @@
+package SistemaBancario;
+
+public class ContaCorrente {
+
+	private int id;
+	private double saldo;
+	private boolean ativa;
+	
+	public ContaCorrente(int id, double saldo, boolean ativa) {
+		
+	}
+
+}

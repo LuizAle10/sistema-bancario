@@ -1,0 +1,19 @@
+package SistemaBancario;
+
+//Classe de neg�cio para realizar operaçoes sobre os clientes do banco.
+
+public class GerenciadoraClientes {
+	
+
+	
+	private List<Cliente> clientesDoBanco;
+	
+	public GerenciadoraClientes(List<Clientes> clientesDoBanco) {
+		this.clientesDoBanco = clientesDoBanco;
+	}
+	
+	// Retorna uma lista com todos os clientes do banco.
+	
+	public list 
+
+}

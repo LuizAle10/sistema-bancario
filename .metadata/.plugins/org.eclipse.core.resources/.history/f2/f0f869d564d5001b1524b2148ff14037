@@ -1,0 +1,9 @@
+package SistemaBancario;
+
+public class GerenciadoraClientes {
+	
+	private List<Cliente> clientesDoBanco;
+	
+	public GerenciadoraClientes(List<Clientes> clientesDoBanco) {
+
+}

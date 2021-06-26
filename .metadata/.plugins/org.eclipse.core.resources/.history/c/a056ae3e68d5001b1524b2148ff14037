@@ -1,0 +1,9 @@
+package SistemaBancario;
+
+public class IdadeNaoPermitidaException {
+	
+	// Exceção a ser lançada quando a idade de um possível novo cliente não for aceita.
+	
+	
+
+}
