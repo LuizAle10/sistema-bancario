@@ -81,12 +81,12 @@ public class GerenciadoraContasTests {
 
 	/**
 	 * Teste b�sico da tentativa de transfer�ncia de um valor da conta de um cliente
-	 * para outro quando não há saldo suficiente e o saldo é negativo.
+	 * para outro quando n�o h� saldo suficientee o saldo � negativo.
 	 */
 	@Test
 	public void testTransfereValor_SaldoNegativo() {
 
-		/* ========== Montagem do cenário ========== */
+		/* ========== Montagem do cen�rio ========== */
 
 		// criando alguns clientes
 		int idConta01 = 1;
@@ -101,10 +101,10 @@ public class GerenciadoraContasTests {
 
 		gerContas = new GerenciadoraContas(contasDoBanco);
 
-		/* ========== Execução ========== */
+		/* ========== Execu��o ========== */
 		boolean sucesso = gerContas.transfereValor(idConta01, 200, idConta02);
 
-		/* ========== Verificações ========== */
+		/* ========== Verifica��es ========== */
 		assertTrue(sucesso);
 		assertThat(conta01.getSaldo(), is(-300.0));
 		assertThat(conta02.getSaldo(), is(200.0));
