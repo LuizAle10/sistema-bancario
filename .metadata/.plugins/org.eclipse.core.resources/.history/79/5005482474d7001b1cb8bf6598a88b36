@@ -1,0 +1,33 @@
+package testes;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+import treinandoJava.Cachorro;
+
+class CachorroTest {
+
+	static Cachorro idadeCachorro;
+
+	@BeforeAll
+
+	static void configuracaoInicial() {
+		idadeCachorro = new Cachorro(int);
+	}
+
+	@DisplayName("Teste Idade dos Cachorros")
+	@Test
+	void testeIdadeDosCachorros() {
+		assertEquals(4, idadeCachorro.fido(4), "Idade Incorreta");
+		assertEquals(16, idadeCachorro.nunzio(16), "Idade Incorreta");
+
+	}
+	
+	
+	
+	
+
+}

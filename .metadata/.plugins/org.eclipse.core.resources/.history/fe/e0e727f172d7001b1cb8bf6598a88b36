@@ -1,0 +1,19 @@
+package treinandoJava;
+
+import org.junit.jupiter.api.BeforeAll;
+
+class CachorroTest {
+
+	static Cachorro quantidadeCachorro;
+
+	@BeforeAll
+	
+	static void configuracaoInicial() {
+		quantidadeCachorro = new Cachorro();		
+	}
+	
+	@DisplayName("Teste de Quantidade de Cachorros com Resultado Positivo")
+	@Test
+	void testeQuantidadeDeCachorro() {
+
+}

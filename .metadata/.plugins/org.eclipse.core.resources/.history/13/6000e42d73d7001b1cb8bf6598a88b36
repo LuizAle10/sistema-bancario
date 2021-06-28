@@ -1,0 +1,21 @@
+package treinandoJava;
+
+import org.junit.jupiter.api.BeforeAll;
+
+class CachorroTest {
+
+	static Cachorro idadeCachorro;
+
+	@BeforeAll
+	
+	static void configuracaoInicial() {
+		idadeCachorro = new Cachorro();		
+	}
+	
+	@DisplayName("Teste de Quantidade de Cachorros com Resultado Positivo")
+	@Test
+	void testeQuantidadeDeCachorro() {
+		assertEquals(2, idadeCachorro. )
+	}
+
+}

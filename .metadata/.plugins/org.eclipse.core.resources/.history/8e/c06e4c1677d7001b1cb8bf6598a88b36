@@ -1,0 +1,45 @@
+package testes;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+import treinandoJava.Cachorro;
+
+class CachorroTest {
+
+	static Cachorro idadeCachorroUM;
+	static Cachorro idadeCachorroDois;
+
+	@BeforeAll
+
+	static void configuracaoInicial() {
+		idadeCachorroUM = new Cachorro("poodle", false, 4);
+		idadeCachorroDois = new Cachorro("shiba inu", true, 12);
+		
+	}
+
+	@DisplayName("Teste Idade dos Cachorros")
+	@Test
+	void testeIdadeDosCachorros() {
+		assertEquals(42, idadeCachorroUM(4), "Idade Incorreta");
+		assertEquals(12, idadeCachorroDois(12), "Idade Incorreta");
+
+	}
+
+	
+	private Integer idadeCachorroUM(int idade) {
+		// TODO Auto-generated method stub
+		return idade;
+	}
+	
+	private Integer idadeCachorroDois(int idade) {
+		// TODO Auto-generated method stub
+		return idade;
+	}
+
+	
+	
+}

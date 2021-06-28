@@ -1,0 +1,20 @@
+package testes;
+
+import org.junit.jupiter.api.BeforeAll;
+
+import treinandoJava.CadastrarPessoa;
+
+class PessoaTest {
+
+	static CadastrarPessoa pessoa;
+
+	@BeforeAll
+	static void configuracaoInicial() {
+		pessoa = new CadastrarPessoa();
+
+	}
+	
+	@DisplayName("Teste Cadastro de Pessoa")
+	@Test
+	void testePessoaCadastrada() {
+}

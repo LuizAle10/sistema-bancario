@@ -1,0 +1,31 @@
+package testes;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+import treinandoJava.CadastrarPessoa;
+
+class PessoaTest {
+
+	// static CadastrarPessoa pessoa;
+
+	// @BeforeAll
+
+	void configuracaoInicial() {
+
+	}
+
+	@DisplayName("Teste Cadastro de Pessoa")
+	@Test
+	void testeNomePessoaCadastrada() {
+		assertEquals(31, pessoaUM(3), "Nome da Pessoa incorreto");
+
+	}
+
+	private Integer pessoaUM(int pessoaUM) {
+		// TODO Auto-generated method stub
+		return pessoaUM;
+	}
+}

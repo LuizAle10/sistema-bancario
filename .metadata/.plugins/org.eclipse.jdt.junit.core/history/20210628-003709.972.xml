@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="GerenciadoraContasTest" project="Banco" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="SistemaBancarioTestes.GerenciadoraContasTest" time="0.026" displayname="GerenciadoraContasTest" uniqueid="[engine:junit-jupiter]/[class:SistemaBancarioTestes.GerenciadoraContasTest]">
+    <testcase name="testTransfereValor_SaldoInsuficiente" classname="SistemaBancarioTestes.GerenciadoraContasTest" time="0.016" displayname="testTransfereValor_SaldoInsuficiente()" uniqueid="[engine:junit-jupiter]/[class:SistemaBancarioTestes.GerenciadoraContasTest]/[method:testTransfereValor_SaldoInsuficiente()]"/>
+    <testcase name="testTransfereValor_SaldoNegativo" classname="SistemaBancarioTestes.GerenciadoraContasTest" time="0.001" displayname="testTransfereValor_SaldoNegativo()" uniqueid="[engine:junit-jupiter]/[class:SistemaBancarioTestes.GerenciadoraContasTest]/[method:testTransfereValor_SaldoNegativo()]"/>
+    <testcase name="testTransfereValor" classname="SistemaBancarioTestes.GerenciadoraContasTest" time="0.001" displayname="testTransfereValor()" uniqueid="[engine:junit-jupiter]/[class:SistemaBancarioTestes.GerenciadoraContasTest]/[method:testTransfereValor()]"/>
+    <testcase name="testTransfereValor_SaldoNegativoParaNegativo" classname="SistemaBancarioTestes.GerenciadoraContasTest" time="0.001" displayname="testTransfereValor_SaldoNegativoParaNegativo()" uniqueid="[engine:junit-jupiter]/[class:SistemaBancarioTestes.GerenciadoraContasTest]/[method:testTransfereValor_SaldoNegativoParaNegativo()]"/>
+    <testcase name="testTransfereValor_Nenhum" classname="SistemaBancarioTestes.GerenciadoraContasTest" time="0.006" displayname="testTransfereValor_Nenhum()" uniqueid="[engine:junit-jupiter]/[class:SistemaBancarioTestes.GerenciadoraContasTest]/[method:testTransfereValor_Nenhum()]"/>
+  </testsuite>
+</testrun>

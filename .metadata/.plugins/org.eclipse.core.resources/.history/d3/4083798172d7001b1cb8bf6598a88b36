@@ -1,0 +1,48 @@
+package testes;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+import treinandoJava.Calculadora;
+
+class CalculadoraTest {
+
+	static Calculadora calc;
+
+	@BeforeAll
+	static void configuracaoInicial() {
+		calc = new Calculadora();
+
+	}
+
+	@DisplayName("Teste de Soma")
+	@Test
+	void testeSomaResultadoPositivo() {
+		assertEquals(4, calc.soma(1, 3), "Soma com erro");
+
+	}
+
+	@DisplayName("Teste de Subtração")
+	@Test
+	void testeSubtracaoResultadoNegativo() {
+		assertEquals(-2, calc.subtracao(1, 3), "Subtração com erro");
+
+	}
+
+	@DisplayName("Teste de Multiplicação")
+	@Test
+	void testeMultiplicacaoResultadoPositivo() {
+		assertEquals(3, calc.multiplicacao(1, 3), "Subtração com erro");
+
+	}
+
+	@DisplayName("Teste de Divisão")
+	@Test
+	void testeDividisaoResultadoPositivo() {
+		assertEquals(1, calc.dividisao(3, 3), "Divisão com erro");
+
+	}
+}

@@ -1,0 +1,27 @@
+package testes;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+
+import treinandoJava.CadastrarPessoa;
+
+class PessoaTest {
+
+	static CadastrarPessoa pessoa;
+
+	@BeforeAll
+	static void configuracaoInicial() {
+		pessoa = new CadastrarPessoa();
+
+	}
+	
+	@DisplayName("Teste Cadastro de Pessoa")
+	@Test
+	void testeNomePessoaCadastrada() {
+		
+		assertEquals(4, pessoa.pessoa(1, 3), "Nome da Pessoa incorreto");
+	}
+}

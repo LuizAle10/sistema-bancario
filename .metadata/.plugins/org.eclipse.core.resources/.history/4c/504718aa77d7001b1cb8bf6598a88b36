@@ -1,0 +1,15 @@
+package testes;
+
+import org.junit.jupiter.api.BeforeAll;
+
+import treinandoJava.CadastrarPessoa;
+
+class PessoaTest {
+	
+	static Calculadora calc;
+
+	@BeforeAll
+	static void configuracaoInicial() {
+		calc = new Calculadora();
+
+}
