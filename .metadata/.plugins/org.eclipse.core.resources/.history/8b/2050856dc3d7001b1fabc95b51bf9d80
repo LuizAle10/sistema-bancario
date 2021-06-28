@@ -1,5 +1,6 @@
 package SistemaBancarioTestes;
 
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -47,6 +48,10 @@ public class GerenciadoraContasTest {
 		assertEquals(100.0, conta01.getSaldo(), "Saldo");
 
 	}
+	
+	
+	
+	
 
 	/*
 	 * Teste basico da tentativa de transferencia de um valor da conta de um cliente
@@ -83,7 +88,10 @@ public class GerenciadoraContasTest {
 	 * Teste b�sico da tentativa de transferencia de um valor da conta de um cliente
 	 * para outro quando não há saldo suficiente e o saldo é negativo.
 	 */
-
+	
+	
+	
+	
 	@Test
 	public void testTransfereValor_SaldoNegativo() {
 
@@ -116,6 +124,10 @@ public class GerenciadoraContasTest {
 	 * para outro quando o saldo do cliente origem é negativo e do cliente destino
 	 * também é negativo.
 	 */
+	
+	
+	
+	
 
 	@Test
 	public void testTransfereValor_SaldoNegativoParaNegativo() {
@@ -142,6 +154,10 @@ public class GerenciadoraContasTest {
 		assertEquals(100.0, conta02.getSaldo(), "Saldo incorreto");
 
 	}
+	
+	
+	
+	
 
 	/*
 	 * Teste básico da tentativa de transferencia de um valor nulo da conta de um
@@ -174,6 +190,7 @@ public class GerenciadoraContasTest {
 		assertEquals(-102.0, conta01.getSaldo(), "Saldo incorreto");
 		assertEquals(-98.0, conta02.getSaldo(), "Saldo incorreto");
 
+		
 	}
 
 }
